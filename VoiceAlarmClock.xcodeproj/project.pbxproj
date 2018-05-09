@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C467A3EE20A28D1F00CE1F9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C467A3ED20A28D1F00CE1F9D /* AppDelegate.m */; };
+		C467A3F120A28D1F00CE1F9D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C467A3F020A28D1F00CE1F9D /* MainViewController.m */; };
+		C467A3F420A28D1F00CE1F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C467A3F220A28D1F00CE1F9D /* Main.storyboard */; };
+		C467A3F620A28D1F00CE1F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C467A3F520A28D1F00CE1F9D /* Assets.xcassets */; };
+		C467A3F920A28D1F00CE1F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C467A3F720A28D1F00CE1F9D /* LaunchScreen.storyboard */; };
+		C467A3FC20A28D1F00CE1F9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C467A3FB20A28D1F00CE1F9D /* main.m */; };
+		C467A40520A28DCB00CE1F9D /* SSNavigationTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C467A40420A28DCB00CE1F9D /* SSNavigationTabBar.m */; };
+		C467A40820A291FB00CE1F9D /* SSCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C467A40720A291FB00CE1F9D /* SSCalendarViewController.m */; };
+		C467A40C20A292FE00CE1F9D /* SSKitchenClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C467A40B20A292FE00CE1F9D /* SSKitchenClockViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C467A3E920A28D1F00CE1F9D /* VoiceAlarmClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceAlarmClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C467A3EC20A28D1F00CE1F9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C467A3ED20A28D1F00CE1F9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C467A3EF20A28D1F00CE1F9D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C467A3F020A28D1F00CE1F9D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C467A3F320A28D1F00CE1F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C467A3F520A28D1F00CE1F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C467A3F820A28D1F00CE1F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C467A3FA20A28D1F00CE1F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C467A3FB20A28D1F00CE1F9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C467A40320A28DCB00CE1F9D /* SSNavigationTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSNavigationTabBar.h; sourceTree = "<group>"; };
+		C467A40420A28DCB00CE1F9D /* SSNavigationTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSNavigationTabBar.m; sourceTree = "<group>"; };
+		C467A40620A291FB00CE1F9D /* SSCalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSCalendarViewController.h; sourceTree = "<group>"; };
+		C467A40720A291FB00CE1F9D /* SSCalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSCalendarViewController.m; sourceTree = "<group>"; };
+		C467A40A20A292FE00CE1F9D /* SSKitchenClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSKitchenClockViewController.h; sourceTree = "<group>"; };
+		C467A40B20A292FE00CE1F9D /* SSKitchenClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSKitchenClockViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C467A3E620A28D1F00CE1F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C467A3E020A28D1F00CE1F9D = {
+			isa = PBXGroup;
+			children = (
+				C467A3EB20A28D1F00CE1F9D /* VoiceAlarmClock */,
+				C467A3EA20A28D1F00CE1F9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C467A3EA20A28D1F00CE1F9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C467A3E920A28D1F00CE1F9D /* VoiceAlarmClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C467A3EB20A28D1F00CE1F9D /* VoiceAlarmClock */ = {
+			isa = PBXGroup;
+			children = (
+				C467A40220A28DCB00CE1F9D /* NavigationTabBar */,
+				C467A40920A2920400CE1F9D /* ViewController */,
+				C467A3EC20A28D1F00CE1F9D /* AppDelegate.h */,
+				C467A3ED20A28D1F00CE1F9D /* AppDelegate.m */,
+				C467A3F220A28D1F00CE1F9D /* Main.storyboard */,
+				C467A3F520A28D1F00CE1F9D /* Assets.xcassets */,
+				C467A3F720A28D1F00CE1F9D /* LaunchScreen.storyboard */,
+				C467A3FA20A28D1F00CE1F9D /* Info.plist */,
+				C467A3FB20A28D1F00CE1F9D /* main.m */,
+			);
+			path = VoiceAlarmClock;
+			sourceTree = "<group>";
+		};
+		C467A40220A28DCB00CE1F9D /* NavigationTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C467A40320A28DCB00CE1F9D /* SSNavigationTabBar.h */,
+				C467A40420A28DCB00CE1F9D /* SSNavigationTabBar.m */,
+			);
+			path = NavigationTabBar;
+			sourceTree = "<group>";
+		};
+		C467A40920A2920400CE1F9D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C467A3EF20A28D1F00CE1F9D /* MainViewController.h */,
+				C467A3F020A28D1F00CE1F9D /* MainViewController.m */,
+				C467A40620A291FB00CE1F9D /* SSCalendarViewController.h */,
+				C467A40720A291FB00CE1F9D /* SSCalendarViewController.m */,
+				C467A40A20A292FE00CE1F9D /* SSKitchenClockViewController.h */,
+				C467A40B20A292FE00CE1F9D /* SSKitchenClockViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C467A3E820A28D1F00CE1F9D /* VoiceAlarmClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C467A3FF20A28D1F00CE1F9D /* Build configuration list for PBXNativeTarget "VoiceAlarmClock" */;
+			buildPhases = (
+				C467A3E520A28D1F00CE1F9D /* Sources */,
+				C467A3E620A28D1F00CE1F9D /* Frameworks */,
+				C467A3E720A28D1F00CE1F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceAlarmClock;
+			productName = VoiceAlarmClock;
+			productReference = C467A3E920A28D1F00CE1F9D /* VoiceAlarmClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C467A3E120A28D1F00CE1F9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = StoneStudio;
+				TargetAttributes = {
+					C467A3E820A28D1F00CE1F9D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C467A3E420A28D1F00CE1F9D /* Build configuration list for PBXProject "VoiceAlarmClock" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C467A3E020A28D1F00CE1F9D;
+			productRefGroup = C467A3EA20A28D1F00CE1F9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C467A3E820A28D1F00CE1F9D /* VoiceAlarmClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C467A3E720A28D1F00CE1F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C467A3F920A28D1F00CE1F9D /* LaunchScreen.storyboard in Resources */,
+				C467A3F620A28D1F00CE1F9D /* Assets.xcassets in Resources */,
+				C467A3F420A28D1F00CE1F9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C467A3E520A28D1F00CE1F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C467A3F120A28D1F00CE1F9D /* MainViewController.m in Sources */,
+				C467A3FC20A28D1F00CE1F9D /* main.m in Sources */,
+				C467A3EE20A28D1F00CE1F9D /* AppDelegate.m in Sources */,
+				C467A40520A28DCB00CE1F9D /* SSNavigationTabBar.m in Sources */,
+				C467A40C20A292FE00CE1F9D /* SSKitchenClockViewController.m in Sources */,
+				C467A40820A291FB00CE1F9D /* SSCalendarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C467A3F220A28D1F00CE1F9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C467A3F320A28D1F00CE1F9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C467A3F720A28D1F00CE1F9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C467A3F820A28D1F00CE1F9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C467A3FD20A28D1F00CE1F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C467A3FE20A28D1F00CE1F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C467A40020A28D1F00CE1F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQ85Q9UV8;
+				INFOPLIST_FILE = VoiceAlarmClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.StoneStudio.VoiceAlarmClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C467A40120A28D1F00CE1F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5YQ85Q9UV8;
+				INFOPLIST_FILE = VoiceAlarmClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.StoneStudio.VoiceAlarmClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C467A3E420A28D1F00CE1F9D /* Build configuration list for PBXProject "VoiceAlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C467A3FD20A28D1F00CE1F9D /* Debug */,
+				C467A3FE20A28D1F00CE1F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C467A3FF20A28D1F00CE1F9D /* Build configuration list for PBXNativeTarget "VoiceAlarmClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C467A40020A28D1F00CE1F9D /* Debug */,
+				C467A40120A28D1F00CE1F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C467A3E120A28D1F00CE1F9D /* Project object */;
+}
